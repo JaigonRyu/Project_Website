@@ -1,0 +1,13 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h1{
+  font-size: 120px;
+  text-align: center;
+  color: black;
+  margin-top: 20%;
+
+}
