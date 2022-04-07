@@ -2,18 +2,28 @@
 <html>
 <head>
 	<title>Lab 11 - </title>
-	<link rel="stylesheet" type="text/css" href="css/front_page.css">
-  <script src="js/front_page.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="css/main_page.css">
+  <script src="js/main_page.js" defer></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 
-	<div>
-		<h1>Welcome to the main page!</h1>
-
-	</div>
-
-
+	<title>My Test Page</title>
+    <p>The body of my page.</p>
+    <!-- copied script elements -->
+		<script>
+	  	window.watsonAssistantChatOptions = {
+	    integrationID: "4aeaa94f-a6ce-4678-92ee-ab38839af9ef", // The ID of this integration.
+	    region: "us-south", // The region your integration is hosted in.
+	    serviceInstanceID: "53343d3d-1e0f-4648-aee9-4dc87e9d47d8", // The ID of your service instance.
+	    onLoad: function(instance) { instance.render(); }
+	  	};
+  	setTimeout(function(){
+    	const t=document.createElement('script');
+    	t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    	document.head.appendChild(t);
+  	});
+		</script>
 
 
 </body>
