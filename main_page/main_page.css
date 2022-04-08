@@ -1,6 +1,27 @@
 h1{
-  font-size: 400px;
+  font-size: 100px;
   text-align: center;
   font-family: sans-serif;
+  color: white;
 
+}
+h3{
+  font-size: 36px;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+
+}
+img{
+  width: auto;
+  height: auto;
+
+}
+header{
+
+  background-color: 006699;
+}
+body{
+
+  background-color: WhiteSmoke;
 }
