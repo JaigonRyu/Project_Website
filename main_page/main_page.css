@@ -1,41 +1,132 @@
-h1{
-  font-size: 100px;
-  text-align: center;
-  font-family: sans-serif;
-  color: white;
 
-}
-h3{
-  font-size: 34px;
-  text-align: center;
-  font-family: sans-serif;
-  color: black;
-
-}
-h5{
-  font-size: 28px;
-  text-align: center;
-  font-family: sans-serif;
-  color: black;
-
-}
-img{
-  width: auto;
-  height: auto;
-  padding-left: 25px;
-
-}
 header{
-
-  background-color: 006699;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .5);
 }
+
+header ul {
+  text-align: center;
+
+}
+
+header ul li {
+   list-style: none;
+   display: inline-block;
+}
+
+header ul li a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 25px;
+  transition: all ease 0.5s;
+}
+
+header ul li a:hover{
+  background-color: #211b4385;
+}
+
 body{
+  background-image: url("https://www.teahub.io/photos/full/111-1117150_desktop-earth-from-space-background-wallpaper-space-and.jpg");
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
 
-  background-color: WhiteSmoke;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-repeat: no-repeat;
 }
-#arrow{
-  width: 450px;
-  height: 230px;
-  padding-bottom: 150px;
 
+.astronaut{
+  height: 260px;
+  width: 260px;
+
+  background-image: url("img/astronaut.png");
+  background-repeat: no-repeat;
+}
+
+.node_1{
+  position: absolute;
+  height: 260px;
+  width: 260px;
+  right: 300px;
+  top: 100px;
+  background-image: url('https://scx1.b-cdn.net/csz/news/800a/2018/imageasteroi.jpg');
+}
+
+#button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
 }
