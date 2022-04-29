@@ -3,6 +3,7 @@
 <head>
 
 	<link rel="stylesheet" type="text/css" href="main_page.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script defer src="control.js"></script>
 
 </head>
@@ -23,8 +24,8 @@
 
 		</header>
 
-
-	<button id="open-button" data-modal-target="#modal">Open Modal</button>
+<div style="text-align:center;">
+	<button id="open-button" data-modal-target="#modal">Instructions</button>
   <div class="modal" id="modal">
     <div class="modal-header">
       <div class="title">Example Modal</div>
@@ -35,11 +36,28 @@
     </div>
   </div>
   <div id="overlay"></div>
+</div>
 
 
-		<div class="astronaut"></div>
-		<div class="node_1"></div>
+		<div id="astronaut" class="astronaut"></div>
 
+
+
+		<div id="node" class="image">
+
+			<img class="image-img" src="img/asteroid.png" alt="asteroid">
+
+			<div id="image-overlay" class="image-overlay">
+
+				<div class="image-title">Unit 1</div>
+
+				<p class="image-description">
+					This is a unit in the asteroid
+				</p>
+
+			</div>
+
+		</div>
 
 
 
