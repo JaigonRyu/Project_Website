@@ -33,7 +33,7 @@ header ul li a:hover{
 /*https://wallpaperaccess.com/full/1268183.jpg*/
 /*https://www.teahub.io/photos/full/111-1117150_desktop-earth-from-space-background-wallpaper-space-and.jpg*/
 body{
-  background-image: url("https://wallpaperaccess.com/full/1268183.jpg");
+  background-image: url("https://www.teahub.io/photos/full/34-343222_4k-wallpaper-reddit-best-cool-wallpaper-hd-download.jpg");
   background-size: cover;
   min-height: 100%;
   min-width: 1024px;
@@ -133,7 +133,7 @@ body{
 
 #node{
 
-    top: 180px;
+    top: 50px;
     left: 499px;
 }
 .image{
@@ -181,11 +181,11 @@ body{
   transform: translateY(0px);
 
 }
-.image-overlay:hover{
+/*.image-overlay:hover{
 
   opacity: 1;
 }
-
+*/
 .image-title{
   font-size: 2em;
   font-weight: bold;
