@@ -69,6 +69,8 @@ body{
      overflow: hidden;
      outline: none;
      color: white;
+     font-weight: bold;
+     font-size: 1.5rem;
 
 }
 
