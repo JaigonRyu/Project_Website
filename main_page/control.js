@@ -141,11 +141,31 @@ setInterval(function(){
 
 }, 200);
 
+setInterval(function(){
+  if(collision($('#astronaut'), $('#node_2')) == true){
+
+    $("#image-overlay_2").css("opacity", "1");
+    console.log("collision is true");
+
+  }
+
+  /*else {
+    $("#image-overlay").css("opacity", "0");
+    console.log("collision is false");
+  }*/
+
+}, 200);
+
 $(document).ready(function(){
   $("#video-close-button").click(function(){
     $("#image-overlay").css("opacity", "0");
   });
-  $("#show").click(function(){
-    $("p").show();
+
+});
+
+$(document).ready(function(){
+  $("#video-close-button_2").click(function(){
+    $("#image-overlay_2").css("opacity", "0");
   });
+
 });

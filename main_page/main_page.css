@@ -1,4 +1,8 @@
+*{
 
+   font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
 header{
   width: 100%;
   background-color: rgba(0, 0, 0, .5);
@@ -133,14 +137,19 @@ body{
 
 #node{
 
-    top: 50px;
-    left: 399px;
+  top: 20px;
+  left: 399px;
+  position: relative;
+
 }
 
 #node_2{
 
-
+  top: -350px;
+  left: 1100px;
+  position: relative;
 }
+
 .image{
   position: relative;
   width: 280px;
@@ -156,7 +165,7 @@ body{
 
 }
 
-.image-overlay{
+.image-overlay, .image-overlay_2{
 
   position: absolute;
   top: 0;
@@ -191,20 +200,20 @@ body{
   opacity: 1;
 }
 */
-.image-title{
+.image-title, .image-title_2{
   font-size: 2em;
   font-weight: bold;
   text-align: center;
 }
 
-.image-description{
+.image-description, .image-description_2{
   font-size: 1.25em;
   margin-top: 0.25em;
   text-align: center;
 
 }
 
-.vid_hidden_1{
+.vid_hidden_1 {
 
   text-align: center;
   align-items: center;
