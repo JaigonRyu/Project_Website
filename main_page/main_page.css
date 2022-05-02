@@ -134,7 +134,12 @@ body{
 #node{
 
     top: 50px;
-    left: 499px;
+    left: 399px;
+}
+
+#node_2{
+
+
 }
 .image{
   position: relative;
@@ -189,10 +194,30 @@ body{
 .image-title{
   font-size: 2em;
   font-weight: bold;
+  text-align: center;
 }
 
 .image-description{
   font-size: 1.25em;
   margin-top: 0.25em;
+  text-align: center;
 
+}
+
+.vid_hidden_1{
+
+  text-align: center;
+  align-items: center;
+}
+.video-close-button{
+    background-color: transparent;
+   background-repeat: no-repeat;
+   border: solid 1px white;
+   padding-bottom: 20px;
+   padding-top: 5px;
+   margin: auto;
+   cursor: pointer;
+   overflow: hidden;
+   outline: none;
+   color: white;
 }

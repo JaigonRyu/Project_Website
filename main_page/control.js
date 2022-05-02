@@ -133,4 +133,19 @@ setInterval(function(){
     console.log("collision is true");
 
   }
+
+  /*else {
+    $("#image-overlay").css("opacity", "0");
+    console.log("collision is false");
+  }*/
+
 }, 200);
+
+$(document).ready(function(){
+  $("#video-close-button").click(function(){
+    $("#image-overlay").css("opacity", "0");
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
