@@ -39,8 +39,11 @@ header ul li a:hover{
 /*https://www.teahub.io/photos/full/111-1117150_desktop-earth-from-space-background-wallpaper-space-and.jpg*/
 body{
   background-image: url("https://www.teahub.io/photos/full/34-343222_4k-wallpaper-reddit-best-cool-wallpaper-hd-download.jpg");
-  background-size: cover;
-  min-height: 100%;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  /*min-height: 100%;
   min-width: 1024px;
   max-height: 100%;
 
@@ -51,6 +54,7 @@ body{
   left: 0;
 
   background-repeat: no-repeat;
+  */
 }
 
 .astronaut{
