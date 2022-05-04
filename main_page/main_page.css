@@ -5,6 +5,7 @@
 }
 header{
   width: 100%;
+  max-height: 20%;
   background-color: rgba(0, 0, 0, .5);
 }
 
@@ -29,6 +30,7 @@ header ul li a{
   font-weight: 600;
   padding: 25px;
   transition: all ease 0.5s;
+
 }
 
 header ul li a:hover{
@@ -65,7 +67,7 @@ body{
   background-image: url("img/astronaut.png");
   background-repeat: no-repeat;
   left: 150px;
-  
+
 }
 
 
