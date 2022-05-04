@@ -60,7 +60,7 @@ body{
   background-repeat: no-repeat;
   */
 }
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 400px) {
   body {
     background-image: url("https://www.teahub.io/photos/full/34-343222_4k-wallpaper-reddit-best-cool-wallpaper-hd-download.jpg");
     background-position: top center;
