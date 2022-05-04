@@ -42,7 +42,8 @@ body{
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 200vw auto;
+  background-size: cover;
+  height: 100vh;
   /*min-height: 100%;
   min-width: 1024px;
   max-height: 100%;
@@ -64,8 +65,7 @@ body{
   background-image: url("img/astronaut.png");
   background-repeat: no-repeat;
   left: 150px;
-  max-width: 10%;
-  max-height: 10%;
+  
 }
 
 
