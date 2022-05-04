@@ -16,6 +16,7 @@ header ul {
 header ul li {
    list-style: none;
    display: inline-block;
+
 }
 
 header ul li a{
@@ -41,6 +42,7 @@ body{
   background-size: cover;
   min-height: 100%;
   min-width: 1024px;
+  max-height: 100%;
 
   width: 100%;
   height: auto;
@@ -59,6 +61,8 @@ body{
   background-repeat: no-repeat;
   left: 150px;
 }
+
+
 
 #open-button{
     background-color: transparent;
@@ -140,8 +144,15 @@ body{
 
 #node_2{
 
-  top: -350px;
-  left: 1100px;
+  top: -150px;
+  left: 950px;
+  position: relative;
+}
+
+#node_3{
+
+  top: -600px;
+  left: 1400px;
   position: relative;
 }
 
