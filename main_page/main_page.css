@@ -80,6 +80,20 @@ body{
     left: 150px;
 
   }
+  #node{
+
+    top: 20px;
+    left: 20px;
+    position: relative;
+
+  }
+  #node_2{
+
+    top: 20px;
+    left: 50px;
+    position: relative;
+
+  }
 }
 
 .astronaut{
