@@ -10,7 +10,7 @@ object.onclick=function(){
     object.style.left = y + 'px';
     counter = counter + 1;
     if (counter == 5) {
-      alert("Congrats you won! (also reminder sushi saturday)");
+      alert("Congrats you won! (also reminder for sushi saturday!)");
     }
 
 };
