@@ -11,6 +11,7 @@ object.onclick=function(){
     counter = counter + 1;
     if (counter == 5) {
       alert("Congrats you won! (also reminder for sushi saturday!)");
+      counter = 0;
     }
 
 };
