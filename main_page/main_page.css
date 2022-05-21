@@ -414,6 +414,7 @@
     top: 20px;
     left: 399px;
     position: relative;
+    display: inline-block;
 
   }
 
@@ -422,6 +423,7 @@
     top: -150px;
     left: 950px;
     position: relative;
+    display: inline-block;
   }
 
   #node_3{
@@ -429,6 +431,7 @@
     top: -600px;
     left: 1400px;
     position: relative;
+    display: inline-block;
   }
 
   .image{
